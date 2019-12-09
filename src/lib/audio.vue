@@ -65,7 +65,7 @@ export default {
             window.audioList.forEach(audio=>{//开始前先关闭所有可能正在运行的实例
                 audio.pause()
             })
-            if(this.audio.paused){
+            if(this.audio.animate){
                 this.audio.play()
             }else{
                 this.audio.pause()
